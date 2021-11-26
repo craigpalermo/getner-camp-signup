@@ -3,13 +3,12 @@ import Head from "next/head";
 import Image from "next/image";
 import { CampInfo } from "../components/CampInfo";
 import { SignupForm } from "../components/SignupForm";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = (props) => {
   console.log(props);
 
   return (
-    <div className={styles.container}>
+    <div className={""}>
       <Head>
         <title>Getner Barn Summer Camp 2022</title>
         <meta
@@ -20,7 +19,7 @@ const Home: NextPage = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={""}>
         <CampInfo />
         <SignupForm />
       </main>
